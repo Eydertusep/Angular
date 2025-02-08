@@ -8,11 +8,11 @@ import { AddComponent } from './components/addTask/add.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AddComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AddComponent,
   ],
   providers: [
     provideClientHydration(withEventReplay())
