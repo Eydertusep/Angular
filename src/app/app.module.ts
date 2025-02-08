@@ -4,10 +4,12 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddComponent } from './components/addTask/add.component';
+import { ListTaskComponent } from './components/list-task/list-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ListTaskComponent,
   ],
   imports: [
     BrowserModule,
